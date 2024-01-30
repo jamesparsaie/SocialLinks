@@ -42,7 +42,12 @@
   cursor: pointer;
   background-color: #333333;
   text-align: center;
+  box-shadow: 0 0 10px #2e2e2e;
   margin-bottom: 4%;
+}
+
+.button-link:hover {
+  background-color: #2e2e2e;
 }
 
 .button-link > p {
