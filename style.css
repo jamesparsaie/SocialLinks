@@ -1,0 +1,59 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #141414;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.main-div {
+  background-color: #1F1F1F;
+  border-radius: 25px;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#avatar {
+  width: 30%;
+  border-radius: 50%;
+}
+
+.button-link {
+  border-radius: 10px;
+  width: 20rem;
+  padding-top: .0006rem;
+  padding-bottom: .0006rem;
+  cursor: pointer;
+  background-color: #333333;
+  text-align: center;
+  margin-bottom: 4%;
+}
+
+.button-link > p {
+  font-weight: bold;
+}
+
+@media only screen and (max-width: 767px) {
+  :root {
+    
+  }
+
+  .main-div {
+    
+  }
+}
